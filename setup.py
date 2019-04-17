@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="mykit",
-    version="0.0.1",
+    version=__version__,
     author="sparsh agarwal",
     author_email="sp.agarwal13@gmail.com",
     description="my useful function package",
